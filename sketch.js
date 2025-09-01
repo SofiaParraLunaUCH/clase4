@@ -1,20 +1,26 @@
 const trabajitos = [
     {
-        photo: "https://picsum.photos/id/40/400/300",
-        title: "Gatito",
-        description: "Trabajo de Configuración Visual I, con Prof. Ampuero."
+        photo: "https://sofiaparralunauch.github.io/clase4/img/trabajo%201.webp",
+        title: "Pistola Antimachistad",
+        description: "Entrega Final Proyeto III ,Profesora Pamela Petruska."
     },
     
     {
-        photo: "https://picsum.photos/id/200/400/300",
-        title: "Toro con pelo",
-        description: "Toro con pelo largo bacan",
+        photo: "https://sofiaparralunauch.github.io/clase4/img/trabajo%202.webp",
+        title: "Prototipo Ornitorrinco de metal",
+        description: "Prototipo Entrega Procesos y Prototipos ,Profesor Patricio Araya",
     },
     
     {
-        photo: "https://picsum.photos/id/219/400/300",
-        title: "Jaguar boneto",
-        description: "Felino con manchas bonito",
+        photo: "https://sofiaparralunauch.github.io/clase4/img/trabajo%203.webp",
+        title: "Acuareguante",
+        description: "Guante para aliviar tensiones mientras se pinta en auarela, Ergonomía Profesor Claudio Ribalta",
+    },
+    
+     {
+        photo: "https://sofiaparralunauch.github.io/clase4/img/trabajo%204.webp",
+        title: "Espacio de trabajo Artelier",
+        description: "Packaging Procesos y Prototipos I, Profesora Pamela Fuentes",
     }
 ];
 const datos = [
