@@ -1,3 +1,22 @@
+const trabajitos = [
+    {
+        photo: "https://picsum.photos/id/40/400/300",
+        title: "Gatito",
+        description: "Trabajo de Configuración Visual I, con Prof. Ampuero."
+    },
+    
+    {
+        photo: "https://picsum.photos/id/200/400/300",
+        title: "Toro con pelo",
+        description: "Toro con pelo largo bacan",
+    },
+    
+    {
+        photo: "https://picsum.photos/id/219/400/300",
+        title: "Jaguar boneto",
+        description: "Felino con manchas bonito",
+    }
+];
 const datos = [
     {
         id: 1,
@@ -210,7 +229,7 @@ var otrxs = [];
 
 
 datos.forEach((x) => {
-    if (x.nombre == "Martina Urzúa") {
+    if (x.nombre == "Sofia Parra") {
         yo = x;
     } else {
         otrxs.push(x);
@@ -236,7 +255,11 @@ function setup() {
     //Lo que sigue es JavaScript a secas
     otrxs.forEach((x)=>{
         document.querySelector("#otredad").innerHTML += `<div><a href="${x.cuenta}"><img src="${x.foto}" title="${x.esperado}"></a></div>`;
-    })
+    });
+        trabajitos.forEach((x)=>{
+        document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
+    });
+    
     //Ahora vuelvo al p5.js
     noStroke();
 }
